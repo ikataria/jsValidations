@@ -1,13 +1,14 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
-    margin: 0 auto;
+    margin: 90px auto 0;
     width: 600px;
-    border: 3px solid purple;
+    border: 3px solid rgb(15, 192, 223);
     padding: 0 2em 1em;
 }
 h1 {
-    color: purple;
+    color: rgb(15, 192, 223);
+    text-decoration: underline
 }
 div {
     margin-bottom: 0.5em;
@@ -18,7 +19,7 @@ fieldset {
     padding: .5em;
 }
 legend {
-    color: purple;
+    color: rgb(15, 192, 223);
     font-weight: bold;
     font-size: 85%;
     margin-bottom: .5em;
@@ -55,4 +56,7 @@ p {
 }
 span {
 	color: red;
+}
+small {
+    font-weight: 700;
 }

@@ -9,19 +9,18 @@
 	
 <body>
 	<h1>Vehicle Reservation Request</h1>
-	<form action="response.html" method="get"
-    	name="reservation_form" id="reservation_form">
+	<form action="response.html" method="get" name="reservation_form" id="reservation_form">
 		<fieldset>
         	<legend>General Information</legend>
 			<div>
 				<label for="pickup_date">Pickup Date:</label>
 				<input type="text" name="pickup_date" id="pickup_date" placeholder="dd/mm/yyyy" autofocus>
-				<span>*</span>
+				<span id="pickupDate">*</span>
 			</div>
 			<div>
 				<label for="days">No. Days:</label>
 				<input type="text" name="days" id="days" placeholder="How many days?">
-				<span>*</span>
+				<span id="daysCount">*</span>
 			</div>       	
 		</fieldset>
 		<fieldset>
@@ -57,24 +56,24 @@
 			<div>
 				<label for="name">Name:</label>
 				<input type="text" name="name" id="name">
-				<span>*</span>
+				<span id="nameSpan">*</span>
 			</div>
 			<div>
 				<label for="email">Email:</label>
 				<input type="text" name="email" id="email">
-				<span>*</span>
+				<span id="emailSpan">*</span>
 			</div>
 			<div>
 				<label for="phone">Phone:</label>
 				<input type="text" name="phone" id="phone" placeholder="999-999-9999">
-				<span>*</span>
+				<span id="phoneSpan">*</span>
 			</div>
 		</fieldset>
 		<div>
 			<input type="submit" id="submit" value="Submit Request">
 		</div>
 	</form>
-	<small>&copy; "YourName/Student Number Here" 2022</small>
+	<small>&copy; "MohitKataria/8820649" 2022</small>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 	<script src="reservation.js"></script>
 </body>
